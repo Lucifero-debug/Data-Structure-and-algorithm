@@ -23,7 +23,7 @@ void heapSort(int arr[],int n){
 
 int t=n;
 while(t>1){
-    //step 1
+    //step 1:=interchange first and last
     int c=arr[1];
     arr[1]=arr[t];
     arr[t]=c;

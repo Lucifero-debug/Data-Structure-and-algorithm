@@ -45,6 +45,7 @@ int ceil(int arr[],int key,int size){
    return arr[ans];
 }
 
+
 int main(){
     int arr[5]={1,2,3,5,6};
     int res= ceil(arr,4,5);
